@@ -1,0 +1,20 @@
+CREATE TABLE store_list (id INTEGER PRIMARY KEY, name TEXT, inventory INTEGER, price REAL);
+
+INSERT INTO store_list VALUES (1,"shoes", 10, 5.00);
+INSERT INTO store_list VALUES (2,"games", 15, 4.00);
+INSERT INTO store_list VALUES (3,"hats", 16, 9.00);
+INSERT INTO store_list VALUES (4,"shorts", 17, 10.00);
+INSERT INTO store_list VALUES (5,"dress", 3, 5.00);
+INSERT INTO store_list VALUES (6,"skirt", 6, 2.00);
+INSERT INTO store_list VALUES (7,"tops", 9, 6.00);
+INSERT INTO store_list VALUES (8,"belt", 23, 9.00);
+INSERT INTO store_list VALUES (9,"needles", 43, 1.00);
+INSERT INTO store_list VALUES (10,"love", 67, 2.00);
+INSERT INTO store_list VALUES (11,"life", 87, 5.00);
+INSERT INTO store_list VALUES (12,"goals", 17, 7.00);
+INSERT INTO store_list VALUES (13,"names", 54, 1.00);
+INSERT INTO store_list VALUES (14,"food", 98, 2.00);
+INSERT INTO store_list VALUES (15,"keys", 61, 10.00);
+
+
+SELECT * FROM store_list ORDER BY price ASC;
